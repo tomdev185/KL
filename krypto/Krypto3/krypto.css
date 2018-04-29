@@ -126,9 +126,80 @@ a.third:after,a.sixth:before,a.sixth:after{
   font-weight:bold;
 }
 
-.a_gen::before{
+.a_genesis_mining::before{
   //content: "Name: ";
-  background-image: url("https://i.vimeocdn.com/portrait/10474673_640x640");
+  //background-image: url("https://i.vimeocdn.com/portrait/10474673_640x640");
+  background-image: url("images/genesis_mining.png");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_hashflare::before{
+  background-image: url("images/hashflare.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_pool_bitcoin::before{
+  background-image: url("images/bitcoin.com.png");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_binance::before{
+  background-image: url("images/binanace.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bittrex::before{
+  background-image: url("images/bittrex.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_upcoin::before{
+  background-image: url("images/upcoin.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinbase::before{
+  background-image: url("images/coinbase.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_hitbtc::before{
+  background-image: url("images/hitbtc.jpg");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
