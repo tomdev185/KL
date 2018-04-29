@@ -149,7 +149,8 @@ a.third:after,a.sixth:before,a.sixth:after{
      vertical-align: middle;
 }
 .a_pool_bitcoin::before{
-  background-image: url("images/bitcoin.com.png");
+  //background-image: url("images/bitcoin.com.png");
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoin.com");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
@@ -169,7 +170,7 @@ a.third:after,a.sixth:before,a.sixth:after{
      vertical-align: middle;
 }
 .a_bittrex::before{
-  background-image: url("images/bittrex.jpg");
+  background-image: url("https://www.google.com/s2/favicons?domain=bittrex.com");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
@@ -179,7 +180,7 @@ a.third:after,a.sixth:before,a.sixth:after{
      vertical-align: middle;
 }
 .a_upcoin::before{
-  background-image: url("images/upcoin.jpg");
+  background-image: url("https://www.google.com/s2/favicons?domain=upcoin.com");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
@@ -189,7 +190,7 @@ a.third:after,a.sixth:before,a.sixth:after{
      vertical-align: middle;
 }
 .a_coinbase::before{
-  background-image: url("images/coinbase.jpg");
+  background-image: url("https://www.google.com/s2/favicons?domain=coinbase.com");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
@@ -199,7 +200,254 @@ a.third:after,a.sixth:before,a.sixth:after{
      vertical-align: middle;
 }
 .a_hitbtc::before{
-  background-image: url("images/hitbtc.jpg");
+  background-image: url("https://www.google.com/s2/favicons?domain=hitbtc.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_openbazaar::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=openbazaar.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitify::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitify.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_trezor::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=trezor.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_ledger_nano::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=ledgerwallet.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_keepkey::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=keepkey.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coolwallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coolwallet.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_electrum::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=electrum.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_freewallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=freewallet.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitgo::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitgo.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_myetherwallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=myetherwallet.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_wallet_bitcoin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoin.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+/*  Buy Bitcoins using credit card */
+.a_cex::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=cex.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitstop::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitstop.co/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coingate::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coingate.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+/*  Bitcoin news websites */
+.a_bitcoin_news::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=news.bitcoin.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+.a_coindesk::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coindesk.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_cointelegraph::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=cointelegraph.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitcoinmagazine::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoinmagazine.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_themerkle::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=themerkle.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitcoinist::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoinist.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+/*   Influential Social media personalities  */
+.a_whalepanda::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/WhalePanda");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_rogerkver::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/rogerkver");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_VitalikButerin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/VitalikButerin");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_SatoshiLite::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/SatoshiLite");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
