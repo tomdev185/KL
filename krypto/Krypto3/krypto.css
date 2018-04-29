@@ -1,7 +1,12 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 body {
-  font-family: sans-serif;
+  //font-family: sans-serif;
+  font-family:'Open Sans', sans-serif;
    margin: 0;
-   background: #f2f2f2;
+   //background: #f2f2f2;
+   background: rgb(250, 191, 44);
+
 }
 
 h1 {
@@ -12,6 +17,10 @@ h1 {
 p {
   text-align: center;
   margin-bottom:60px;
+}
+
+h3 {
+  //font-size: 150%;
 }
 
 h4{
@@ -77,4 +86,54 @@ h4{
         -webkit-column-count: 4;
         column-count: 4;
     }
+}
+
+// UL list styling
+ul {list-style: none; width: 50%; margin: 0 auto; font-size: 18px;}
+ul li {}
+li:hover span {background: #efefef;}
+ul span {display: inline-block; text-align: center; padding: 10px 0;}
+a {color: #333;}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color:#000000;
+	font-size:1.1em;
+}
+a:hover{
+	//color:#d73444;
+  color: rgb(0, 0, 0);
+  //background-color: #FFFBCC;
+}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+
+.wrapper:hover{
+  opacity:1;
+  transition: 1s ease;
+  background-color: #FFFBCC;
+  font-weight:bold;
+}
+
+.a_gen::before{
+  //content: "Name: ";
+  background-image: url("https://i.vimeocdn.com/portrait/10474673_640x640");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
 }
