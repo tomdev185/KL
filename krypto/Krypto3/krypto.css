@@ -414,6 +414,17 @@ a.third:after,a.sixth:before,a.sixth:after{
      margin-left: 15px;
      vertical-align: middle;
 }
+.a_steemit::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=steemit.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
 
 /*   Influential Social media personalities  */
 .a_whalepanda::before{
@@ -448,6 +459,39 @@ a.third:after,a.sixth:before,a.sixth:after{
 }
 .a_SatoshiLite::before{
   background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/SatoshiLite");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+
+/*top ICO sites*/
+.a_icoalert::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=icoalert.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_ico_list::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=ico-list.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinschedule::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coinschedule.com/");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
