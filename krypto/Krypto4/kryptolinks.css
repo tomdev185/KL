@@ -521,8 +521,8 @@ a.third:after,a.sixth:before,a.sixth:after{
      margin-left: 15px;
      vertical-align: middle;
 }
-.a_coinschedule::before{
-  background-image: url("https://www.google.com/s2/favicons?domain=coinschedule.com/");
+.a_piepool:before{
+  background-image: url("https://www.google.com/s2/favicons?domain=piepool.com/");
   background-size: 17px 17px;
     display: inline-block;
      width: 17px;
