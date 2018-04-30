@@ -14,6 +14,45 @@ h1 {
   margin-top: 50px;
 }
 
+.heading{
+  background-color: #253137;
+  color: rgb(250, 191, 44);
+  height:13vh;
+  text-align: center;
+}
+#kryptolinks_text{
+    font-family:'Open Sans', sans-serif;
+    font-size: 30px;
+    padding-top: 15px;
+}
+
+#kryptolinks_text_2{
+    font-family:'Open Sans', sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ffffff;
+}
+
+#footer {
+    background-color: #253137;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.flex-container {
+  display: flex;
+  //background-color: DodgerBlue;
+  width: 100%;
+  flex-shrink: 0;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
 p {
   text-align: center;
   margin-bottom:60px;
