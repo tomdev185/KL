@@ -500,3 +500,34 @@ a.third:after,a.sixth:before,a.sixth:after{
      margin-left: 15px;
      vertical-align: middle;
 }
+/* Masternode coins*/
+.a_masternode_online::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=masternodes.online/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_masternode_pro::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=masternodes.pro");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinschedule::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coinschedule.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
