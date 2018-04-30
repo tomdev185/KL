@@ -1,0 +1,533 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+  //font-family: sans-serif;
+  font-family:'Open Sans', sans-serif;
+   margin: 0;
+   //background: #f2f2f2;
+   background: rgb(250, 191, 44);
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
+
+p {
+  text-align: center;
+  margin-bottom:60px;
+}
+
+h3 {
+  //font-size: 150%;
+}
+
+h4{
+  text-align:center;
+  line-height:80px;
+  font-weight:normal;
+
+}
+
+.masonry { /* Masonry container */
+    -webkit-column-count: 4;
+  -moz-column-count:4;
+  column-count: 4;
+  -webkit-column-gap: 1em;
+  -moz-column-gap: 1em;
+  column-gap: 1em;
+   margin: 1.5em;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+    font-size: .85em;
+}
+.item {
+    display: inline-block;
+    background: #fff;
+    padding: 1em;
+    margin: 0 0 1.5em;
+    width: 100%;
+	-webkit-transition:1s ease all;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+.item img{max-width:100%;}
+
+@media only screen and (max-width: 320px) {
+    .masonry {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 768px){
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+@media only screen and (min-width: 769px) and (max-width: 1200px){
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+// UL list styling
+ul {list-style: none; width: 50%; margin: 0 auto; font-size: 18px;}
+ul li {}
+li:hover span {background: #efefef;}
+ul span {display: inline-block; text-align: center; padding: 10px 0;}
+a {color: #333;}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+	position:relative;
+  transition:0.5s color ease;
+	text-decoration:none;
+	color:#000000;
+	font-size:1.1em;
+}
+a:hover{
+	//color:#d73444;
+  color: rgb(0, 0, 0);
+  //background-color: #FFFBCC;
+}
+a.third:after,a.sixth:before,a.sixth:after{
+  left:50%;
+  -webkit-transform:translateX(-50%);
+          transform:translateX(-50%);
+}
+
+.wrapper:hover{
+  opacity:1;
+  transition: 1s ease;
+  background-color: #FFFBCC;
+  font-weight:bold;
+}
+
+.a_genesis_mining::before{
+  //content: "Name: ";
+  //background-image: url("https://i.vimeocdn.com/portrait/10474673_640x640");
+  background-image: url("images/genesis_mining.png");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_hashflare::before{
+  background-image: url("images/hashflare.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_pool_bitcoin::before{
+  //background-image: url("images/bitcoin.com.png");
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoin.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_binance::before{
+  background-image: url("images/binanace.jpg");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bittrex::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bittrex.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_upcoin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=upcoin.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinbase::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coinbase.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_hitbtc::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=hitbtc.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_openbazaar::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=openbazaar.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitify::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitify.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_trezor::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=trezor.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_ledger_nano::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=ledgerwallet.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_keepkey::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=keepkey.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coolwallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coolwallet.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_electrum::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=electrum.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_freewallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=freewallet.org");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitgo::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitgo.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_myetherwallet::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=myetherwallet.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_wallet_bitcoin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoin.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+/*  Buy Bitcoins using credit card */
+.a_cex::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=cex.io");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitstop::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitstop.co/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coingate::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coingate.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+/*  Bitcoin news websites */
+.a_bitcoin_news::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=news.bitcoin.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+.a_coindesk::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coindesk.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_cointelegraph::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=cointelegraph.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitcoinmagazine::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoinmagazine.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_themerkle::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=themerkle.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_bitcoinist::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=bitcoinist.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_steemit::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=steemit.com");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+
+/*   Influential Social media personalities  */
+.a_whalepanda::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/WhalePanda");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_rogerkver::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/rogerkver");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_VitalikButerin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/VitalikButerin");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_SatoshiLite::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=https://twitter.com/SatoshiLite");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+
+
+/*top ICO sites*/
+.a_icoalert::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=icoalert.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_ico_list::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=ico-list.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinschedule::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coinschedule.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+/* Masternode coins*/
+.a_masternode_online::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=masternodes.online/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_masternode_pro::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=masternodes.pro");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
+.a_coinschedule::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=coinschedule.com/");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
