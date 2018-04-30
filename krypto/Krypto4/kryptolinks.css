@@ -218,6 +218,16 @@ a.third:after,a.sixth:before,a.sixth:after{
      margin-left: 15px;
      vertical-align: middle;
 }
+.a_livecoin::before{
+  background-image: url("https://www.google.com/s2/favicons?domain=livecoin.net");
+  background-size: 17px 17px;
+    display: inline-block;
+     width: 17px;
+     height: 17px;
+     content:"";
+     margin-left: 15px;
+     vertical-align: middle;
+}
 .a_upcoin::before{
   background-image: url("https://www.google.com/s2/favicons?domain=upcoin.com");
   background-size: 17px 17px;
@@ -569,4 +579,9 @@ a.third:after,a.sixth:before,a.sixth:after{
      content:"";
      margin-left: 15px;
      vertical-align: middle;
+}
+
+/**/
+.footer_class{
+  font-size: 10pt;
 }
